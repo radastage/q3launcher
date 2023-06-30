@@ -1,0 +1,1 @@
++game baseq3 +map q3dm0 +addbot crash 3 red 100000 Crash +fraglimit 100 +timelimit 20  +g_gametype 1
