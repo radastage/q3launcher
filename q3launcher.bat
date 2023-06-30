@@ -35,6 +35,7 @@ for /F "tokens=* EOL=# delims= " %%D in (q3commandline.txt) do (
 set "launchprompt=%launchprompt% %%~D"
 )
 quake3.exe %launchprompt% 
+set launchprompt=
 goto :menu
 
 :edit
